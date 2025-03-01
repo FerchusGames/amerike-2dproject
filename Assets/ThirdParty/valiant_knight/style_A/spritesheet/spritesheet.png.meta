@@ -385,7 +385,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_0
+      name: attack_a_00
       rect:
         serializedVersion: 2
         x: 0
@@ -407,7 +407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_1
+      name: attack_a_01
       rect:
         serializedVersion: 2
         x: 79
@@ -429,7 +429,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_2
+      name: attack_a_02
       rect:
         serializedVersion: 2
         x: 158
@@ -451,7 +451,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_3
+      name: attack_a_03
       rect:
         serializedVersion: 2
         x: 237
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_4
+      name: attack_a_04
       rect:
         serializedVersion: 2
         x: 316
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_5
+      name: attack_a_05
       rect:
         serializedVersion: 2
         x: 395
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_6
+      name: attack_a_06
       rect:
         serializedVersion: 2
         x: 474
@@ -539,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_7
+      name: attack_a_07
       rect:
         serializedVersion: 2
         x: 553
@@ -561,7 +561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_8
+      name: attack_a_08
       rect:
         serializedVersion: 2
         x: 632
@@ -583,7 +583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_9
+      name: attack_a_09
       rect:
         serializedVersion: 2
         x: 711
@@ -605,7 +605,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_10
+      name: attack_a_10
       rect:
         serializedVersion: 2
         x: 790
@@ -627,7 +627,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_11
+      name: attack_a_11
       rect:
         serializedVersion: 2
         x: 869
@@ -649,7 +649,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_12
+      name: attack_a_12
       rect:
         serializedVersion: 2
         x: 948
@@ -671,7 +671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_13
+      name: attack_a_13
       rect:
         serializedVersion: 2
         x: 1027
@@ -693,7 +693,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_14
+      name: attack_b_00
       rect:
         serializedVersion: 2
         x: 0
@@ -715,7 +715,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_15
+      name: attack_b_01
       rect:
         serializedVersion: 2
         x: 79
@@ -737,7 +737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_16
+      name: attack_b_02
       rect:
         serializedVersion: 2
         x: 158
@@ -759,7 +759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_17
+      name: attack_b_03
       rect:
         serializedVersion: 2
         x: 237
@@ -781,7 +781,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_18
+      name: attack_b_04
       rect:
         serializedVersion: 2
         x: 316
@@ -803,7 +803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_19
+      name: attack_b_05
       rect:
         serializedVersion: 2
         x: 395
@@ -825,7 +825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_20
+      name: attack_b_06
       rect:
         serializedVersion: 2
         x: 474
@@ -847,7 +847,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_21
+      name: attack_b_07
       rect:
         serializedVersion: 2
         x: 553
@@ -869,7 +869,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_22
+      name: attack_b_08
       rect:
         serializedVersion: 2
         x: 632
@@ -891,7 +891,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_23
+      name: attack_b_09
       rect:
         serializedVersion: 2
         x: 711
@@ -913,7 +913,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_24
+      name: attack_b_10
       rect:
         serializedVersion: 2
         x: 790
@@ -935,7 +935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_25
+      name: attack_b_11
       rect:
         serializedVersion: 2
         x: 869
@@ -957,7 +957,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_26
+      name: attack_b_12
       rect:
         serializedVersion: 2
         x: 948
@@ -979,7 +979,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_27
+      name: attack_c_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1001,7 +1001,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_28
+      name: attack_c_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1023,7 +1023,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_29
+      name: attack_c_02
       rect:
         serializedVersion: 2
         x: 158
@@ -1045,7 +1045,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_30
+      name: attack_c_03
       rect:
         serializedVersion: 2
         x: 237
@@ -1067,7 +1067,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_31
+      name: attack_c_04
       rect:
         serializedVersion: 2
         x: 316
@@ -1089,7 +1089,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_32
+      name: attack_c_05
       rect:
         serializedVersion: 2
         x: 395
@@ -1111,7 +1111,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_33
+      name: attack_c_06
       rect:
         serializedVersion: 2
         x: 474
@@ -1133,7 +1133,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_34
+      name: attack_c_07
       rect:
         serializedVersion: 2
         x: 553
@@ -1155,7 +1155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_35
+      name: attack_c_08
       rect:
         serializedVersion: 2
         x: 632
@@ -1177,7 +1177,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_36
+      name: attack_c_09
       rect:
         serializedVersion: 2
         x: 711
@@ -1199,7 +1199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_37
+      name: attack_c_10
       rect:
         serializedVersion: 2
         x: 790
@@ -1221,7 +1221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_38
+      name: attack_c_11
       rect:
         serializedVersion: 2
         x: 869
@@ -1243,7 +1243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_39
+      name: attack_c_12
       rect:
         serializedVersion: 2
         x: 948
@@ -1265,7 +1265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_40
+      name: attack_c_13
       rect:
         serializedVersion: 2
         x: 1027
@@ -1287,7 +1287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_41
+      name: die_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1309,7 +1309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_42
+      name: die_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1331,7 +1331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_43
+      name: die_02
       rect:
         serializedVersion: 2
         x: 158
@@ -1353,7 +1353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_44
+      name: die_03
       rect:
         serializedVersion: 2
         x: 237
@@ -1375,7 +1375,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_45
+      name: die_04
       rect:
         serializedVersion: 2
         x: 316
@@ -1397,7 +1397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_46
+      name: die_05
       rect:
         serializedVersion: 2
         x: 395
@@ -1419,7 +1419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_47
+      name: die_06
       rect:
         serializedVersion: 2
         x: 474
@@ -1441,7 +1441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_48
+      name: die_07
       rect:
         serializedVersion: 2
         x: 553
@@ -1463,7 +1463,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_49
+      name: die_08
       rect:
         serializedVersion: 2
         x: 632
@@ -1485,7 +1485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_50
+      name: die_09
       rect:
         serializedVersion: 2
         x: 711
@@ -1507,7 +1507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_51
+      name: jump_fall_loop_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1529,7 +1529,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_52
+      name: jump_fall_loop_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1551,7 +1551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_53
+      name: get_hit_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1573,7 +1573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_54
+      name: get_hit_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1595,7 +1595,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_55
+      name: get_hit_02
       rect:
         serializedVersion: 2
         x: 158
@@ -1617,7 +1617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_56
+      name: get_hit_03
       rect:
         serializedVersion: 2
         x: 237
@@ -1639,7 +1639,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_57
+      name: get_hit_04
       rect:
         serializedVersion: 2
         x: 316
@@ -1661,7 +1661,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_58
+      name: guard_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1683,7 +1683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_59
+      name: guard_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1705,7 +1705,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_60
+      name: guard_02
       rect:
         serializedVersion: 2
         x: 158
@@ -1727,7 +1727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_61
+      name: guard_03
       rect:
         serializedVersion: 2
         x: 237
@@ -1749,7 +1749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_62
+      name: guard_04
       rect:
         serializedVersion: 2
         x: 316
@@ -1771,7 +1771,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_63
+      name: guard_05
       rect:
         serializedVersion: 2
         x: 395
@@ -1793,7 +1793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_64
+      name: guard_end_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1815,7 +1815,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_65
+      name: guard_end_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1837,7 +1837,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_66
+      name: guard_end_02
       rect:
         serializedVersion: 2
         x: 158
@@ -1859,7 +1859,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_67
+      name: guard_end_03
       rect:
         serializedVersion: 2
         x: 237
@@ -1881,7 +1881,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_68
+      name: guard_start_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1903,7 +1903,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_69
+      name: guard_start_01
       rect:
         serializedVersion: 2
         x: 79
@@ -1925,7 +1925,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_70
+      name: guard_start_02
       rect:
         serializedVersion: 2
         x: 158
@@ -1947,7 +1947,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_71
+      name: guard_start_03
       rect:
         serializedVersion: 2
         x: 237
@@ -1969,7 +1969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_72
+      name: idle_00
       rect:
         serializedVersion: 2
         x: 0
@@ -1991,7 +1991,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_73
+      name: idle_01
       rect:
         serializedVersion: 2
         x: 79
@@ -2013,7 +2013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_74
+      name: idle_02
       rect:
         serializedVersion: 2
         x: 158
@@ -2035,7 +2035,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_75
+      name: idle_03
       rect:
         serializedVersion: 2
         x: 237
@@ -2057,7 +2057,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_76
+      name: idle_04
       rect:
         serializedVersion: 2
         x: 316
@@ -2079,7 +2079,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_77
+      name: idle_05
       rect:
         serializedVersion: 2
         x: 395
@@ -2101,7 +2101,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_78
+      name: jump_start_00
       rect:
         serializedVersion: 2
         x: 0
@@ -2123,7 +2123,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_79
+      name: jump_start_01
       rect:
         serializedVersion: 2
         x: 79
@@ -2145,7 +2145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_80
+      name: jump_start_02
       rect:
         serializedVersion: 2
         x: 158
@@ -2167,7 +2167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_81
+      name: jump_start_03
       rect:
         serializedVersion: 2
         x: 237
@@ -2189,7 +2189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_82
+      name: jump_start_04
       rect:
         serializedVersion: 2
         x: 316
@@ -2211,7 +2211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_83
+      name: jump_start_05
       rect:
         serializedVersion: 2
         x: 395
@@ -2233,7 +2233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_84
+      name: run_00
       rect:
         serializedVersion: 2
         x: 0
@@ -2255,7 +2255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_85
+      name: run_01
       rect:
         serializedVersion: 2
         x: 79
@@ -2277,7 +2277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_86
+      name: run_02
       rect:
         serializedVersion: 2
         x: 158
@@ -2299,7 +2299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_87
+      name: run_03
       rect:
         serializedVersion: 2
         x: 237
@@ -2321,7 +2321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_88
+      name: run_04
       rect:
         serializedVersion: 2
         x: 316
@@ -2343,7 +2343,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_89
+      name: run_05
       rect:
         serializedVersion: 2
         x: 395
@@ -2365,7 +2365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_90
+      name: run_06
       rect:
         serializedVersion: 2
         x: 474
@@ -2387,7 +2387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_91
+      name: run_07
       rect:
         serializedVersion: 2
         x: 553
@@ -2422,98 +2422,98 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spritesheet_0: 8020143640844766479
-      spritesheet_1: -6251682230944352461
-      spritesheet_10: 5777552420452043588
-      spritesheet_11: 1269540525142108225
-      spritesheet_12: -2630129836624287915
-      spritesheet_13: -7676219313036738927
-      spritesheet_14: 6985626698306143173
-      spritesheet_15: 4773514653529381359
-      spritesheet_16: 6413020478584453356
-      spritesheet_17: -6420534950463556919
-      spritesheet_18: 8367830406354533065
-      spritesheet_19: -4721245407534591264
-      spritesheet_2: -1259408508766424310
-      spritesheet_20: -2642393358525368334
-      spritesheet_21: 182515998739034355
-      spritesheet_22: 5390129371266227295
-      spritesheet_23: 1111231892956182058
-      spritesheet_24: 3042023047814558122
-      spritesheet_25: -1297572194080285004
-      spritesheet_26: -5351138903708955224
-      spritesheet_27: -5895191231709818157
-      spritesheet_28: 4116411608050698257
-      spritesheet_29: 2696214034221626940
-      spritesheet_3: -5962389079421231736
-      spritesheet_30: 5339229742347854233
-      spritesheet_31: -5381851817413261878
-      spritesheet_32: 6123212246031883711
-      spritesheet_33: -8158273205997960823
-      spritesheet_34: -7803645574393991823
-      spritesheet_35: -8540854674809487797
-      spritesheet_36: -2800876817223335725
-      spritesheet_37: 7686511047796825374
-      spritesheet_38: -3654083477062011090
-      spritesheet_39: -2213891765562235112
-      spritesheet_4: 2788568348960109317
-      spritesheet_40: 7816579671404485219
-      spritesheet_41: 8434893452232278025
-      spritesheet_42: 3062383759408700104
-      spritesheet_43: -3687489427716195
-      spritesheet_44: 1751618896811465624
-      spritesheet_45: 156824180473805077
-      spritesheet_46: 9109323392184880499
-      spritesheet_47: 2598833627876718223
-      spritesheet_48: -2033776217500058201
-      spritesheet_49: -9123048126347468465
-      spritesheet_5: 226702753830753226
-      spritesheet_50: -2731854774048942697
-      spritesheet_51: 6463828295129595045
-      spritesheet_52: 2920052613717862253
-      spritesheet_53: -8873626391699258573
-      spritesheet_54: 1752520659032480968
-      spritesheet_55: -8188909564941553941
-      spritesheet_56: 8203099556873942403
-      spritesheet_57: -4180715191943267252
-      spritesheet_58: -3423954715984931012
-      spritesheet_59: -1173080275824419151
-      spritesheet_6: -7921052967969465774
-      spritesheet_60: -3194430170665604626
-      spritesheet_61: -4180478380050184196
-      spritesheet_62: 1528203702100030697
-      spritesheet_63: 4057492184055871464
-      spritesheet_64: -8151809739343590656
-      spritesheet_65: 1486011304807624349
-      spritesheet_66: -7546874146221198523
-      spritesheet_67: 8203384205706593396
-      spritesheet_68: 5476210624315791439
-      spritesheet_69: 4881338712816961750
-      spritesheet_7: -1370661682523340017
-      spritesheet_70: -3637585315767756026
-      spritesheet_71: 3339521214611036040
-      spritesheet_72: -8054094661458634563
-      spritesheet_73: -4398394707965095008
-      spritesheet_74: 4764081960791798808
-      spritesheet_75: 4358228687824631495
-      spritesheet_76: -1933497887715123699
-      spritesheet_77: -7088014404590163093
-      spritesheet_78: -4231952906909274518
-      spritesheet_79: -3253330834931219228
-      spritesheet_8: -8276262488406422588
-      spritesheet_80: -7217613064680546865
-      spritesheet_81: 7785628452164488187
-      spritesheet_82: 8746164212724197313
-      spritesheet_83: 2455660249822621566
-      spritesheet_84: 1425127498379637175
-      spritesheet_85: -100600239254619610
-      spritesheet_86: -2246593140615009828
-      spritesheet_87: 4690727812591204254
-      spritesheet_88: -1837837421625175352
-      spritesheet_89: -7033796726722632800
-      spritesheet_9: -5906973516983679737
-      spritesheet_90: -5575019744733750458
-      spritesheet_91: -289723467203535953
+      attack_a_00: 8020143640844766479
+      attack_a_01: -6251682230944352461
+      attack_a_02: -1259408508766424310
+      attack_a_03: -5962389079421231736
+      attack_a_04: 2788568348960109317
+      attack_a_05: 226702753830753226
+      attack_a_06: -7921052967969465774
+      attack_a_07: -1370661682523340017
+      attack_a_08: -8276262488406422588
+      attack_a_09: -5906973516983679737
+      attack_a_10: 5777552420452043588
+      attack_a_11: 1269540525142108225
+      attack_a_12: -2630129836624287915
+      attack_a_13: -7676219313036738927
+      attack_b_00: 6985626698306143173
+      attack_b_01: 4773514653529381359
+      attack_b_02: 6413020478584453356
+      attack_b_03: -6420534950463556919
+      attack_b_04: 8367830406354533065
+      attack_b_05: -4721245407534591264
+      attack_b_06: -2642393358525368334
+      attack_b_07: 182515998739034355
+      attack_b_08: 5390129371266227295
+      attack_b_09: 1111231892956182058
+      attack_b_10: 3042023047814558122
+      attack_b_11: -1297572194080285004
+      attack_b_12: -5351138903708955224
+      attack_c_00: -5895191231709818157
+      attack_c_01: 4116411608050698257
+      attack_c_02: 2696214034221626940
+      attack_c_03: 5339229742347854233
+      attack_c_04: -5381851817413261878
+      attack_c_05: 6123212246031883711
+      attack_c_06: -8158273205997960823
+      attack_c_07: -7803645574393991823
+      attack_c_08: -8540854674809487797
+      attack_c_09: -2800876817223335725
+      attack_c_10: 7686511047796825374
+      attack_c_11: -3654083477062011090
+      attack_c_12: -2213891765562235112
+      attack_c_13: 7816579671404485219
+      die_00: 8434893452232278025
+      die_01: 3062383759408700104
+      die_02: -3687489427716195
+      die_03: 1751618896811465624
+      die_04: 156824180473805077
+      die_05: 9109323392184880499
+      die_06: 2598833627876718223
+      die_07: -2033776217500058201
+      die_08: -9123048126347468465
+      die_09: -2731854774048942697
+      get_hit_00: -8873626391699258573
+      get_hit_01: 1752520659032480968
+      get_hit_02: -8188909564941553941
+      get_hit_03: 8203099556873942403
+      get_hit_04: -4180715191943267252
+      guard_00: -3423954715984931012
+      guard_01: -1173080275824419151
+      guard_02: -3194430170665604626
+      guard_03: -4180478380050184196
+      guard_04: 1528203702100030697
+      guard_05: 4057492184055871464
+      guard_end_00: -8151809739343590656
+      guard_end_01: 1486011304807624349
+      guard_end_02: -7546874146221198523
+      guard_end_03: 8203384205706593396
+      guard_start_00: 5476210624315791439
+      guard_start_01: 4881338712816961750
+      guard_start_02: -3637585315767756026
+      guard_start_03: 3339521214611036040
+      idle_00: -8054094661458634563
+      idle_01: -4398394707965095008
+      idle_02: 4764081960791798808
+      idle_03: 4358228687824631495
+      idle_04: -1933497887715123699
+      idle_05: -7088014404590163093
+      jump_fall_loop_00: 6463828295129595045
+      jump_fall_loop_01: 2920052613717862253
+      jump_start_00: -4231952906909274518
+      jump_start_01: -3253330834931219228
+      jump_start_02: -7217613064680546865
+      jump_start_03: 7785628452164488187
+      jump_start_04: 8746164212724197313
+      jump_start_05: 2455660249822621566
+      run_00: 1425127498379637175
+      run_01: -100600239254619610
+      run_02: -2246593140615009828
+      run_03: 4690727812591204254
+      run_04: -1837837421625175352
+      run_05: -7033796726722632800
+      run_06: -5575019744733750458
+      run_07: -289723467203535953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
