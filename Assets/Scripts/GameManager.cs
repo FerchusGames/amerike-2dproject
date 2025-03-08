@@ -1,10 +1,11 @@
+using System;
 using DefaultNamespace;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameManager Instance = null;
-    public IGameApp GameApp;
+    public GameManager Instance { get; private set; }
+    private IGameApp GameApp;
     
     private void Awake()
     {
@@ -20,5 +21,10 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnApplicationQuit()
+    {
+        GameApp.Dispose();
     }
 }
