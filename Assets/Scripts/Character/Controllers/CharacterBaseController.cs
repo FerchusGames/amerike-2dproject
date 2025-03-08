@@ -21,8 +21,25 @@ namespace Character.Controllers
             MovementCycleTask(gameToken).Forget();
         }
 
+        private async UniTaskVoid MovementCycleTask(CancellationToken gameToken)
         {
-            
+            var transform = _characterView.Transform;
+            var moveSpeed = 3f;
+
+            while (!gameToken.IsCancellationRequested)
+            {
+                var direction = _characterView.Direction;
+                var horizontal = direction.x;
+
+                var flipX = _characterView.IsSpriteFlipped;
+                flipX = horizontal < 0 || horizontal == 0 && flipX; 
+                _characterView.IsSpriteFlipped = flipX;
+                _characterView.MoveState = Mathf.Abs((int) horizontal);
+                    
+                transform.Translate(Vector2.right * horizontal * Time.deltaTime);
+                await UniTask.NextFrame();
+            }
+        }
 
         public void Dispose()
         {

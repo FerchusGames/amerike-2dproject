@@ -14,7 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Default Local Group
   m_GUID: 0d5b4aeb7d9762242b16d7ef57bc6401
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 3411566846104884295caab4cd55f219
+    m_Address: Assets/BundleAssets/Character_A/Base/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82a5407588783ce439ea1343c861f5c0
+    m_Address: Assets/BundleAssets/Character_A/Base/SFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a61f078fcefe4d4db3a17e14da6ae43
+    m_Address: Assets/BundleAssets/Character_A/Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9d0f847ac8b6cf4aa8d1bb5799eb97a
+    m_Address: Assets/BundleAssets/Character_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffa7c9c07ae66db4cb6102e95b8509a7
+    m_Address: Assets/BundleAssets/Character_A/Base/Character_A.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8147f5f182cdf2043b7f27130bdea771, type: 2}
   m_SchemaSet:
