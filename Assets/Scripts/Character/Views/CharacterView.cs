@@ -1,19 +1,42 @@
-﻿using Character.Models;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.InputSystem;
+using Utilities.Bindings;
 
 namespace Character.Views
 {
-    [RequireComponent(typeof(SpriteRenderer), 
-        typeof(Animator),
-        typeof(Rigidbody2D))]
+    [RequireComponent(typeof(SpriteRenderer), typeof(Rigidbody2D))]
     public class CharacterView : MonoBehaviour, ICharacterView
     {
         [SerializeField] private SpriteRenderer _spriteRenderer;
-        [SerializeField] private Animator _animator;
         [SerializeField] private Rigidbody2D _rigidbody2D;
-
+        [SerializeField] private IntBinding _moveBinding;
+        
+        private Vector2 _direction;
+        
         public SpriteRenderer SpriteRenderer => _spriteRenderer;
-        public Animator Animator => _animator;
         public Rigidbody2D Rigidbody2D => _rigidbody2D;
+        public Transform Transform => transform;
+        
+        public bool IsSpriteFlipped
+        {
+            get => _spriteRenderer.flipX;
+            set => _spriteRenderer.flipX = value;
+        }
+
+        public Vector2 Direction => _direction;
+        public void JumpButtonDown()
+        {
+            
+        }
+
+        public int MoveState
+        {
+            set => _moveBinding.Value = value;
+        }
+
+        public void SetDirection(InputAction.CallbackContext context)
+        {
+            _direction = context.ReadValue<Vector2>();
+        }
     }
 }

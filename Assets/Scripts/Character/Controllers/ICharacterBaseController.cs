@@ -1,7 +1,6 @@
-﻿namespace Character.Controllers
+﻿using System;
+
+namespace Character.Controllers
 {
-    public interface ICharacterBaseController
-    {
-        void StartCharacter();
-    }
+    public interface ICharacterBaseController : IDisposable { }
 }
