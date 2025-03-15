@@ -1,8 +1,17 @@
-﻿namespace Character.Models
+﻿using System;
+using UnityEngine;
+
+namespace Character.Models
 {
+    [Serializable]
     public class CharacterData : ICharacterData
     {
-        public float MoveSpeed { get; set; }
-        public float JumpForce { get; set; }
+        [SerializeField]
+        private float _moveSpeed;
+        [SerializeField]
+        private float _jumpForce;
+        
+        public float MoveSpeed => _moveSpeed;
+        public float JumpForce => _jumpForce;
     }
 }

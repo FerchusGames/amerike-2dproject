@@ -1,9 +1,10 @@
 ﻿using System;
+using Cysharp.Threading.Tasks;
 
 namespace DefaultNamespace
 {
     public interface IGameApp : IDisposable
     {
-        void StartApp();
+        UniTaskVoid StartApp();
     }
 }

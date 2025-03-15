@@ -2,17 +2,19 @@ using System.Threading;
 using Character.Controllers;
 using Character.Models;
 using Character.Views;
+using Cysharp.Threading.Tasks;
 using DefaultNamespace;
-using UnityEngine;
+using Utilities.AddressableLoader;
 
 public class GameApp : IGameApp
 {
     private CancellationTokenSource _gameTokenSource = new();
 
-    public void StartApp()
+    public async UniTaskVoid StartApp()
     {
-        ICharacterView characterView = GameObject.Find("CharacterBase").GetComponent<CharacterView>();
-        ICharacterData characterData = new CharacterData();
+        var characterView = 
+            await AddressableLoader.InstantiateAsync<ICharacterView>("basePlayer");
+        ICharacterData characterData = new CharacterDataDummy();
         
         ICharacterBaseController characterBaseController =
             new CharacterBaseController(characterView, characterData, _gameTokenSource.Token);
