@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Character.Views
 {
@@ -9,7 +10,7 @@ namespace Character.Views
         Transform Transform { get; }
         bool IsSpriteFlipped { get; set; }
         Vector2 Direction { get; }
-        void JumpButtonDown();
         int MoveState { set; }
+        event Action OnJumpButtonDown;
     }
 }

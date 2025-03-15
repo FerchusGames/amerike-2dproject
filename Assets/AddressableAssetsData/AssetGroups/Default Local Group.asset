@@ -30,6 +30,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1cef5e9e57df2546ae8c4206787f6e5
+    m_Address: Assets/BundleAssets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e9d0f847ac8b6cf4aa8d1bb5799eb97a
     m_Address: Assets/BundleAssets/Character_A
     m_ReadOnly: 0
@@ -38,7 +43,8 @@ MonoBehaviour:
   - m_GUID: ffa7c9c07ae66db4cb6102e95b8509a7
     m_Address: Assets/BundleAssets/Character_A/Base/Character_A.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - basePlayer
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8147f5f182cdf2043b7f27130bdea771, type: 2}

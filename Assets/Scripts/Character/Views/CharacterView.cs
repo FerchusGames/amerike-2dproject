@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using Utilities.Bindings;
 
@@ -17,6 +18,8 @@ namespace Character.Views
         public Rigidbody2D Rigidbody2D => _rigidbody2D;
         public Transform Transform => transform;
         
+        public event Action OnJumpButtonDown;
+        
         public bool IsSpriteFlipped
         {
             get => _spriteRenderer.flipX;
@@ -26,14 +29,14 @@ namespace Character.Views
         public Vector2 Direction => _direction;
         public void JumpButtonDown()
         {
-            
+            OnJumpButtonDown?.Invoke();
         }
 
         public int MoveState
         {
             set => _moveBinding.Value = value;
         }
-
+        
         public void SetDirection(InputAction.CallbackContext context)
         {
             _direction = context.ReadValue<Vector2>();

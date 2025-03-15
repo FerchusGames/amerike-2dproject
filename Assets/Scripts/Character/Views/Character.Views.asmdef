@@ -1,0 +1,18 @@
+{
+    "name": "Character.Views",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:57b99fa228c646f4f9e43463457d0c69",
+        "GUID:05e5ec4c79eb9694a990f4da42ff0e8d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

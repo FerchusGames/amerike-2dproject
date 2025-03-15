@@ -12,20 +12,37 @@ namespace Character.Controllers
         private ICharacterData _characterData;
         private CancellationTokenRegistration _cancellationTokenRegistration;
         
+        private Rigidbody2D Rigidbody2D => _characterView.Rigidbody2D;
+        private ForceMode2D JumpForceMode => ForceMode2D.Impulse;
+        private Vector2 RunDirection => Vector2.right;
+        private Vector2 JumpDirection => Vector2.up;
+        private Transform Transform => _characterView.Transform;
+        
+        private float _jumpForce;
+        private float _moveSpeed;
+        
         public CharacterBaseController(ICharacterView characterView, ICharacterData characterData, CancellationToken gameToken)
         {
             _characterView = characterView;
             _characterData = characterData;
             _cancellationTokenRegistration = gameToken.Register(Dispose);
             
+            _characterView.OnJumpButtonDown += Jump;
+            
+            _jumpForce = characterData.JumpForce;
+            _moveSpeed = characterData.MoveSpeed;
+            
             MovementCycleTask(gameToken).Forget();
         }
 
+        public void Dispose()
+        {
+            _characterView.OnJumpButtonDown -= Jump;
+            _cancellationTokenRegistration.Dispose();
+        }
+        
         private async UniTaskVoid MovementCycleTask(CancellationToken gameToken)
         {
-            var transform = _characterView.Transform;
-            var moveSpeed = 3f;
-
             while (!gameToken.IsCancellationRequested)
             {
                 var direction = _characterView.Direction;
@@ -36,14 +53,14 @@ namespace Character.Controllers
                 _characterView.IsSpriteFlipped = flipX;
                 _characterView.MoveState = Mathf.Abs((int) horizontal);
                     
-                transform.Translate(Vector2.right * horizontal * Time.deltaTime);
+                Transform.Translate(RunDirection * horizontal * _moveSpeed * Time.deltaTime);
                 await UniTask.NextFrame();
             }
         }
 
-        public void Dispose()
+        private void Jump()
         {
-            _cancellationTokenRegistration.Dispose();
+            Rigidbody2D.AddForce(JumpDirection * _jumpForce, JumpForceMode);
         }
     }
 }
