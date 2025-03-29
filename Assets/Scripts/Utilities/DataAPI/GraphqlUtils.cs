@@ -21,7 +21,7 @@ namespace Utilities.DataAPI
         private const string requestType = "application/json";
         private static JObject GetData(JObject data) => data == null ? null : JObject.Parse(data["data"].ToString());
 
-        public static async UniTask<T> GetModel<T>(GraphQlQuery query, string queryName, CancellationToken token)
+        public static async UniTask<T> GetModel<T>(GraphQlQuery query, string queryName, string structName, CancellationToken token)
         {
             T modelData = default;
             var webRequest = new UnityWebRequest(URL, UnityWebRequest.kHttpVerbPOST);
@@ -34,9 +34,10 @@ namespace Utilities.DataAPI
 
             if (webRequest.result != UnityWebRequest.Result.Success) return modelData;
             var data = JObject.Parse(webRequest.downloadHandler.text);
-            Debug.Log(data);
-            modelData = JsonUtility.FromJson<T>(GetData(data)[queryName]?[0]?.ToString());
-
+            var dataObject = GetData(data);
+            
+            modelData = JsonUtility.FromJson<T>(dataObject[structName]?[0]?.ToString());
+            Debug.Log(modelData);
             return modelData;
         }
     }

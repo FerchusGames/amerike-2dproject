@@ -42,6 +42,7 @@ public class GameApp : IGameApp
         ICharacterData characterData = await GraphqlUtils.GetModel<CharacterData>(
             fullQueryCharacterData, 
             "Query", 
+            "CharacterDataByStyleName",
             _gameTokenSource.Token);
         
         ICharacterBaseController characterBaseController =

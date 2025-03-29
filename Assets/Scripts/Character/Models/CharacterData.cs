@@ -6,12 +6,19 @@ namespace Character.Models
     [Serializable]
     public class CharacterData : ICharacterData
     {
-        [SerializeField] private string _styleName;
-        [SerializeField] private float _moveSpeed;
-        [SerializeField] private float _jumpForce;
+        [SerializeField] private string styleName;
+        [SerializeField] private float moveSpeed;
+        [SerializeField] private float jumpForce;
+        
+        public string StyleName => styleName;
+        public float MoveSpeed => moveSpeed;
+        public float JumpForce => jumpForce;
 
-        public string StyleName => _styleName;
-        public float MoveSpeed => _moveSpeed;
-        public float JumpForce => _jumpForce;
+        public CharacterData(string styleName, float moveSpeed, float jumpForce)
+        {
+            this.styleName = styleName;
+            this.moveSpeed = moveSpeed;
+            this.jumpForce = jumpForce;
+        }
     }
 }
