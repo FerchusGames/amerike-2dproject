@@ -18,8 +18,8 @@ namespace Character.Controllers
         private Vector2 JumpDirection => Vector2.up;
         private Transform Transform => _characterView.Transform;
         
-        private float _jumpForce;
-        private float _moveSpeed;
+        private float jumpForce;
+        private float moveSpeed;
         
         public CharacterBaseController(ICharacterView characterView, ICharacterData characterData, CancellationToken gameToken)
         {
@@ -29,8 +29,8 @@ namespace Character.Controllers
             
             _characterView.OnJumpButtonDown += Jump;
             
-            _jumpForce = characterData.JumpForce;
-            _moveSpeed = characterData.MoveSpeed;
+            jumpForce = characterData.JumpForce;
+            moveSpeed = characterData.MoveSpeed;
             
             MovementCycleTask(gameToken).Forget();
         }
@@ -53,14 +53,14 @@ namespace Character.Controllers
                 _characterView.IsSpriteFlipped = flipX;
                 _characterView.MoveState = Mathf.Abs((int) horizontal);
                     
-                Transform.Translate(RunDirection * horizontal * _moveSpeed * Time.deltaTime);
+                Transform.Translate(RunDirection * horizontal * moveSpeed * Time.deltaTime);
                 await UniTask.NextFrame();
             }
         }
 
         private void Jump()
         {
-            Rigidbody2D.AddForce(JumpDirection * _jumpForce, JumpForceMode);
+            Rigidbody2D.AddForce(JumpDirection * jumpForce, JumpForceMode);
         }
     }
 }
