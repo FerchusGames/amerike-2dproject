@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameManager Instance { get; private set; }
-    private IGameApp GameApp;
+    private IGameApp _gameApp;
     
     private void Awake()
     {
@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
-            GameApp = new GameApp();
-            GameApp.StartApp().Forget();
+            _gameApp = new GameApp();
+            _gameApp.StartApp().Forget();
         }
         else
         {
@@ -25,6 +25,6 @@ public class GameManager : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        GameApp.Dispose();
+        _gameApp.Dispose();
     }
 }
