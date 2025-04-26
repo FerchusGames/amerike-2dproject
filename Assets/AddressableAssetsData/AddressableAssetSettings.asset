@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 0d5b4aeb7d9762242b16d7ef57bc6401
   m_currentHash:
     serializedVersion: 2
-    Hash: 76f2a62217024a46bfbe92a1f56d5d32
+    Hash: b9078d98ba18d30a99154607c9df2906
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - basePlayer
+    - halloween2025Player
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: ad9c1c79f08371249bfb92fde22ae9c1, type: 2}

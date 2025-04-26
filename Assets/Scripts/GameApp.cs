@@ -18,7 +18,7 @@ public class GameApp : IGameApp
     
     public async UniTaskVoid StartApp()
     {
-        var characterView = await AddressableLoader.InstantiateAsync<ICharacterView>("basePlayer");
+        var characterView = await AddressableLoader.InstantiateAsync<ICharacterView>("halloween2025Player");
 
         var characterDataQueryByStyleName = @"query Query($styleName: String!) {
           CharacterDataByStyleName(styleName: $styleName) {
@@ -30,7 +30,7 @@ public class GameApp : IGameApp
         
         var characterDataByStyleNameVariables = new CharacterDataByStyleName()
         {
-            styleName = "basePlayer"
+            styleName = "halloween2025Player"
         };
 
         var fullQueryCharacterData = new GraphQlQuery()

@@ -15,8 +15,28 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 0d5b4aeb7d9762242b16d7ef57bc6401
   m_SerializeEntries:
+  - m_GUID: 1cdea24f75aef3044a0baf7ae67d4607
+    m_Address: Assets/BundleAssets/Character_A/Base/Animations/AC_valiant_knight.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3411566846104884295caab4cd55f219
     m_Address: Assets/BundleAssets/Character_A/Base/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61a5e32e2dc93d34d9c99867770a8d32
+    m_Address: Assets/BundleAssets/Halloween2025/Animations/CharacterHalloween_Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6de5c46cb9cdb4e47a25d59640e4696f
+    m_Address: Assets/BundleAssets/Character_A/Base/Animations/CharacterBase_Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b12bb364313ecd44a6649e99fb7be2d
+    m_Address: Assets/BundleAssets/Halloween2025/Animations/CharacterHalloween_Run.anim
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -30,8 +50,24 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a738865395912f144901666d74bb5679
+    m_Address: Assets/BundleAssets/Halloween2025/Animations/AC_CharacterHalloween.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af0bc570bd06dcd40aabe3d56c3ff6b7
+    m_Address: Assets/BundleAssets/Halloween2025/CharacterHalloween2025.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - halloween2025Player
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c1cef5e9e57df2546ae8c4206787f6e5
     m_Address: Assets/BundleAssets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbdd885ee8afacb4ca628324c376afaa
+    m_Address: Assets/BundleAssets/Character_A/Base/Animations/CharacterBase_Run.anim
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
